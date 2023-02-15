@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'lala_task5'
+                sh './lala_task5'
                 echo 'Test Successful'
             }
         }
