@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ new_cpp_file.cpp -o lala_task5'
+                sh 'gcc new_cpp_file.cpp -o lala_task5i'
                 echo 'Build Successful'
             }
         }
@@ -21,7 +21,7 @@ pipeline {
     }
     post {
         failure {
-            echo 'Pipeline Failed'
+            echo 'Pipeline Failed PES1UG20CS514'
         }
     }
 }
